@@ -1,0 +1,7 @@
+name: Maintance
+version: '${version}'
+main: org.dasultra.maintance.Maintance
+api-version: '1.20'
+authors: [DasUltra]
+description: Maintance Sytem for Spigot
+website: https://team-ultra.eu
