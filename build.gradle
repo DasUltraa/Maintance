@@ -1,3 +1,5 @@
+import java.nio.charset.Charset
+
 plugins {
     id 'java'
 }
@@ -46,4 +48,8 @@ processResources {
     filesMatching('plugin.yml') {
         expand props
     }
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
 }
